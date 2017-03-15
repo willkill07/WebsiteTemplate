@@ -1,234 +1,249 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta name="description" content="The personal and professional website of YOUR NAME">
+  <meta name="description" content="The personal and professional website of John Smith">
   <meta name="keywords" content="">
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=0">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
   <meta name="description" content="">
-  <meta name="author" content="">
-  <title>Website</title>
-  <link href="css/bootstrap.min.css" rel="stylesheet">
-  <link href="css/icomoon.css" rel="stylesheet">
-  <link href="css/scrolling-nav.css" rel="stylesheet">
+  <meta name="author" content="John Smith">
+  <title>John Smith</title>
+  <link rel="mask-icon" color="#00539F">
+  <link rel="apple-touch-icon-precomposed" href="https://www.gravatar.com/avatar/809b8f787593db89c9561675cfcbe35d?s=58" sizes="58x58">
+  <link rel="apple-touch-icon-precomposed" href="https://www.gravatar.com/avatar/809b8f787593db89c9561675cfcbe35d?s=76" sizes="76x76">
+  <link rel="apple-touch-icon-precomposed" href="https://www.gravatar.com/avatar/809b8f787593db89c9561675cfcbe35d?s=87" sizes="87x87">
+  <link rel="apple-touch-icon-precomposed" href="https://www.gravatar.com/avatar/809b8f787593db89c9561675cfcbe35d?s=120" sizes="120x120">
+  <link rel="apple-touch-icon-precomposed" href="https://www.gravatar.com/avatar/809b8f787593db89c9561675cfcbe35d?s=152" sizes="152x152">
+  <link rel="apple-touch-icon-precomposed" href="https://www.gravatar.com/avatar/809b8f787593db89c9561675cfcbe35d?s=167" sizes="167x167">
+  <link rel="apple-touch-icon-precomposed" href="https://www.gravatar.com/avatar/809b8f787593db89c9561675cfcbe35d?s=180" sizes="180x180">
+  <link href="css/theme.css" rel="stylesheet">
   <link href="css/custom.css" rel="stylesheet">
-  <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-  <![endif]-->
+  <link href="css/icomoon.css" rel="stylesheet">
 </head>
 <body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
-  <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+  <nav class="navbar navbar-default navbar-fixed-top anim frost" role="navigation">
     <div class="container">
+      <input type="checkbox" id="navbar-toggle-cbox">
       <div class="navbar-header page-scroll">
-        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+        <label for="navbar-toggle-cbox" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
           <span class="sr-only">Toggle navigation</span>
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
-        </button>
-        <div class="anim">
-	  <!-- CONFIGURE css/custom.css to point to the right image -->
-          <span class="navbar-brand page-scroll"><a href="#intro" class="page-scroll"><span id="headerimg"></span></a></span>
-          <span class="navbar-brand page-scroll"><span class="page-scroll text-primary">Your Name</span></span>
-        </div>
+        </label>
       </div>
-      <div class="navbar-collapse navbar-ex1-collapse collapse anim" style="height: 1px;">
-        <ul class="nav navbar-nav">
+      <div class="navbar-collapse collapse text-center" style="height: 1px;">
+        <ul class="nav navbar-nav text-uppercase">
           <li class="hidden active">
             <a class="page-scroll" href="#page-top"></a>
           </li>
           <li class="">
-            <a class="page-scroll" href="#research"><span class="icon-books"></span><span>&nbsp;Research</span></a>
+            <a class="page-scroll" href="#teaching"><span>&nbsp;Teaching</span></a>
           </li>
           <li class="">
-            <a class="page-scroll" href="#projects"><span class="icon-library"></span><span>&nbsp;Projects</span></a>
+            <a class="page-scroll" href="#research"><span>&nbsp;Research</span></a>
           </li>
           <li class="">
-            <a class="page-scroll" href="#education"><span class="icon-edu"></span><span>&nbsp;Education</span></a>
+            <a class="page-scroll" href="#projects"><span>&nbsp;Projects</span></a>
           </li>
           <li class="">
-            <a class="page-scroll" href="#resources"><span class="glyphicon glyphicon-dashboard"></span><span>&nbsp;Resources</span></a>
+            <a class="page-scroll" href="#education"><span>&nbsp;Education</span></a>
           </li>
           <li class="">
-            <a class="page-scroll" href="#contact"><span class="icon-card"></span><span>&nbsp;Contact</span></a>
+            <a class="page-scroll" href="#resources"><span>&nbsp;Resources</span></a>
           </li>
-          
+          <li class="">
+            <a class="page-scroll" href="#contact"><span>&nbsp;Contact</span></a>
+          </li>
         </ul>
       </div>
     </div>
   </nav>
+  <main class="circuit">
   <section id="intro" class="section intro-section">
     <div class="container">
       <div class="row">
-        <div class="col-md-10 col-sm-9">
-          <p class="lead">This is my job title</p>
-          <p class="lead">This is what I do</p>
-          <p class="lead">If you have an advisor, brag about them here</p>
-        </div>
-        <div class="col-md-2 col-sm-3">
-          <p class="text-center col-sm-12">
-            <a href="resources/cv.pdf" class="nounder">
+        <div class="col-sm-12 text-center">
+          <img src="https://www.gravatar.com/avatar/809b8f787593db89c9561675cfcbe35d?s=512" alt="Profile Picture of William Killian" id="profilePic" class="img-circle center-block">
+          <h1 class="text-primary text-uppercase">John Smith</h1>
+          <p class="text-uppercase">Specialty&nbsp;One &mdash; Another&nbsp;Specialty &mdash; and&nbsp;a&nbsp;Third</p>
+          <br>
+          <p>Ph.D. student at the <a href="//www.udel.edu" class="nounder">University of Delaware</a></p>
+          <p>Advised by <a href="" class="nounder">Advisor</a></p>
+          <p>Collaborator at <a href="" class="nounder">List collaborator</a></p>
+          <p>Contributor to <a href="" class="nounder">Open Source Project</a></p>
+          <p>
+            <a href="resources/cv.pdf" class="nounder text-uppercase">
               <br>
               <span class="h2 icon-file-pdf"></span>
               <br>Download CV
             </a>
-          </p>     
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="teaching" class="section teaching-section">
+    <div class="container">
+      <div class="text-center">
+        <h1>Teaching</h1>
+        <h2><small>Spring 2017 (Teaching Assistant)</small></h2>
+      </div>
+      <div class="row">
+        <div class="col-xs-12 col-sm-6">
+          <div class="panel panel-primary">
+            <div class="panel-heading">
+              <h4 class="panel-title">Course Information</h4>
+            </div>
+            <table class="table table-bordered">
+              <tr>
+                <td><strong>Name</strong></td><td>CISC 010</td>
+              </tr>
+              <tr>
+                <td><strong>Professor</strong></td><td><a href="//www.eecis.udel.edu/" class="nounder">Dr. Fakename</a></td>
+              </tr>
+              <tr>
+                <td><strong>Lecture</strong></td><td>Monday and Wednesday 15:35&ndash;16:50</td>
+              </tr>
+              <tr>
+                <td><strong>Room</strong></td><td>Gore Hall Room 204</td>
+              </tr>
+              <tr>
+                <td><strong>Webpage</strong></td><td>Course Webpage is accessible through <a href="https://sakai.udel.edu" class="nounder">Sakai</a></td>
+              </tr>
+            </table>
+          </div>
+        </div>
+        <div class="col-xs-12 col-sm-6">
+          <div class="panel panel-primary">
+            <div class="panel-heading">
+              <h4 class="panel-title">Contact Information</h4>
+            </div>
+            <table class="table table-bordered">
+              <tr>
+                <td><strong>Email</strong></td><td><a href="mailto:anemailaddress@udel.edu" class="nounder">anemailaddress@udel.edu</a></td>
+              </tr>
+              <tr>
+                <td><strong>Office Hours</strong></td>
+                <td>Wednesday 13:00&ndash;14:00 and Thursday 16:00&ndash;17:00</td>
+              </tr>
+              <tr>
+                <td><strong>Office</strong></td><td>Smith Hall Room 201</td>
+              </tr>
+            </table>
+          </div>
         </div>
       </div>
     </div>
   </section>
   <section id="research" class="section research-section">
     <div class="container">
-      <h1 class="text-center text-primary">Research<br><small>Topics</small></h1>
+      <h1 class="text-center">Research</h1>
       <div class="row">
-        <div class="col-xs-12 col-sm-6">
-          <div class="panel panel-default">
-            <div class="panel-heading">
-              <h4 class="panel-title">Topic 1</h4>
+        <h2 class="text-center">Topics</h2>
+        <div class="col-xs-12 col-sm-6 col-md-4">
+          <div>
+            <div>
+              <h3>Research topic</h3>
             </div>
-            <div class="panel-body">
-              <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</span>
-            </div>
-          </div>
-        </div>
-        <div class="col-xs-12 col-sm-6">
-          <div class="panel panel-default">
-            <div class="panel-heading">
-              <h4 class="panel-title">Topic 2</h4>
-            </div>
-            <div class="panel-body">
-              <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</span>
+            <div>
+              <span>Description</span>
             </div>
           </div>
         </div>
-        <div class="clearfix hidden-xs"></div>
-        <div class="col-xs-12 col-sm-6">
-          <div class="panel panel-default">
-            <div class="panel-heading">
-              <h4 class="panel-title">Topic 3</h4>
+        <div class="col-xs-12 col-sm-6 col-md-4">
+          <div>
+            <div>
+              <h3>Research topic 2</h3>
             </div>
-            <div class="panel-body">
-              <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</span>
+            <div>
+              <span>Description</span>
             </div>
           </div>
         </div>
-        <div class="col-xs-12 col-sm-6">
-          <div class="panel panel-default">
-            <div class="panel-heading">
-              <h4 class="panel-title">Vectorization</h4>
+        <div class="col-xs-12 col-sm-6 col-md-4">
+          <div>
+            <div>
+              <h3>Research topic 3</h3>
             </div>
-            <div class="panel-body">
-              <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</span>
+            <div>
+              <span>Description</span>
             </div>
           </div>
         </div>
         <div class="clearfix hidden-xs"></div>
       </div>
       <div class="row">
-	<h1 class="text-center"><small>Publications</small></h1>
-	<div class="col-xs-12">
+        <h2 class="text-center">Publications</h2>
+        <div class="col-xs-12">
           <ul class="list-group">
-	    <li class="list-group-item">
-	      <div class="row">
-		<div class="col-xs-12 col-sm-9 col-md-10">
-		  <small class="text-muted">[TYPE]</small>&nbsp;<strong class="text-primary">Name</strong>, Other, Authors <em class="text-info">“Title of Publication,”</em> Where did this happen, Year.
-		</div>
-		<div class="col-xs-12 col-sm-3 col-md-2 text-right">
-		  <a class="btn btn-default" href="resources/pub.pdf">Download <span class="icon-file-pdf"></span></a>
-		</div>
-	      </div>
-	    </li>
-	  </ul>
-	</div>
-      </div>
-      <h1 class="text-center"><small>Interests</small></h1>
-      <div class="row">
-        <div class="col-xs-12 col-sm-4">
-          <div class="panel panel-success">
-            <div class="panel-heading">
-              <h4 class="text-center panel-title">Interest 1</h4>
-            </div>
-            <div class="panel-body">
-              <div class="col-lg-3 col-md-4 col-sm-12 col-xs-4">
-                <div class="text-center">
-                  <span class="text-success glyphicon glyphicon-leaf jumbo-icon"></span>
-                </div>                                        
+            <li class="list-group-item">
+              <div class="row">
+                <div class="col-xs-12 col-sm-9 col-md-10">
+                  <small class="text-muted">[TYPE]</small>&nbsp;<strong class="text-primary">Name</strong>, Other, Authors <em class="text-info">“Title of Publication,”</em> Where did this happen, Year.
+                </div>
+                <div class="col-xs-12 col-sm-3 col-md-2 text-right">
+                  <a class="btn btn-default" href="resources/pub.pdf">Download <span class="icon-file-pdf"></span></a>
+                </div>
               </div>
-              <div class="col-lg-9 col-md-8 col-sm-12 col-xs-8">
-		Brief Description. Include a question or two on the high-level research problem.
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-xs-12 col-sm-4">
-          <div class="panel panel-danger">
-            <div class="panel-heading">
-              <h4 class="text-center panel-title">Interest 2</h4>
-            </div>
-            <div class="panel-body">
-              <div class="col-lg-3 col-md-4 col-sm-12 col-xs-4">
-                <div class="text-center">
-                  <span class="text-danger glyphicon glyphicon-dashboard jumbo-icon"></span>
-                </div>                                        
-              </div>
-              <div class="col-lg-9 col-md-8 col-sm-12 col-xs-8">
-		Brief Description. Include a question or two on the high-level research problem.
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-xs-12 col-sm-4">
-          <div class="panel panel-info">
-            <div class="panel-heading">
-              <h4 class="text-center panel-title">Interest 3</h4>
-            </div>
-            <div class="panel-body">
-              <div class="col-lg-3 col-md-4 col-sm-12 col-xs-4">
-                <div class="text-center">
-                  <span class="text-info glyphicon glyphicon-stats jumbo-icon"></span>
-                </div>                                        
-              </div>
-              <div class="col-lg-9 col-md-8 col-sm-12 col-xs-8">
-		Brief Description. Include a question or two on the high-level research problem.
-              </div>
-            </div>
-          </div>
+            </li>
+          </ul>
         </div>
       </div>
     </div>
   </section>
-  
+
   <section id="projects" class="section projects-section">
     <div class="container">
-      <h1 class="text-center text-primary">Projects</h1>
+      <h1 class="text-center">Projects</h1>
       <div class="row">
-        <div class="well well-lg text-center">
-          <h2 class="icon-github-logo"></h2>
-          <p class="lead">I have an awesome Github page.</p>
-	  <p>
-	    <a href="//www.github.com/" class="btn btn-primary btn-lg" role="button"><span class="icon-github" style="vertical-align:baseline"></span>&nbsp;Your username</a>
-	  </p>
+        <div class="col-xs-12">
+          <div class="well well-lg text-center">
+            <h2 class="icon-github-logo"></h2>
+            <p class="lead">I have an awesome Github page.</p>
+            <p>
+              <a href="//www.github.com/github" class="btn btn-primary btn-lg" role="button"><span class="icon-github" style="vertical-align:baseline"></span>&nbsp;username_here</a>
+            </p>
+          </div>
         </div>
       </div>
-      <h1 class="text-center"><small>Lab Projects</small></h1>
       <div class="row">
         <div class="col-sm-6 col-xs-12">
-          <div class="panel panel-default">
+          <div class="panel panel-info">
             <div class="panel-heading">
-              <h4 class="panel-title">Project Name</h4>
+              <h3 class="panel-title">Project</h3>
             </div>
             <div class="panel-body">
-              <p>This should be a paragraph on what your project is. Brief results are okay, but don't make this writeup too long.</p>
+              <p>Description</p>
             </div>
             <div class="panel-footer text-center">
               <div class="btn-group">
-                <a href="//www.github.com/MYREPO" class="btn btn-default"><span class="icon-github"></span>&nbsp;Repo Name</a>
-                <a href="//www.github.com/MYREPO/subscription" class="btn btn-default"><span class="icon-github-watch"></span></a>
-                <a href="//www.github.com/MYREPO/fork" class="btn btn-default"><span class="icon-github-fork"></span></a>
-                <a href="//project.website.com" class="btn btn-default"><span class="glyphicon glyphicon-globe"></span></a>
+                <a href="//www.github.com/fake/repo" class="btn btn-default"><span class="icon-github"></span>&nbsp;FinanceBench</a>
+                <a href="//www.github.com/fake/repo/subscription" class="btn btn-default"><span class="icon-github-watch"></span></a>
+                <a href="//www.github.com/fake/repo/fork" class="btn btn-default"><span class="icon-github-fork"></span></a>
+                <a href="//fake.github.io/repo" class="btn btn-default"><span class="glyphicon glyphicon-globe"></span></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-6 col-xs-12">
+          <div class="panel panel-info">
+            <div class="panel-heading">
+              <h3 class="panel-title">Project</h3>
+            </div>
+            <div class="panel-body">
+              <p>Description</p>
+            </div>
+            <div class="panel-footer text-center">
+              <div class="btn-group">
+                <a href="//www.github.com/fake/repo" class="btn btn-default"><span class="icon-github"></span>&nbsp;FinanceBench</a>
+                <a href="//www.github.com/fake/repo/subscription" class="btn btn-default"><span class="icon-github-watch"></span></a>
+                <a href="//www.github.com/fake/repo/fork" class="btn btn-default"><span class="icon-github-fork"></span></a>
+                <a href="//fake.github.io/repo" class="btn btn-default"><span class="glyphicon glyphicon-globe"></span></a>
               </div>
             </div>
           </div>
@@ -239,17 +254,62 @@
   </section>
   <section id="education" class="section education-section">
     <div class="container">
-      <h1 class="text-center text-primary">Education</h1>
+      <h1 class="text-center">Education</h1>
       <div class="row">
         <div class="col-sm-6 col-xs-12">
-          <h4 class="text-info">University</h4>
-          <p class="text-warning">Degree Earned &mdash; Year</p>
-          <h5 class="text-muted">Courses</h5>
-          <ul>
-            <li>List</li>
-            <li>Goes</li>
-            <li>Here</li>
-          </ul>
+          <div class="panel panel-primary">
+            <div class="panel-heading">
+              <h3 class="panel-title">Graduate School Section</h3>
+            </div>
+            <div class="panel-body">
+              <p>Ph.D. Computer and Information Science &mdash; 2017 (est)</p>
+              <p>M.S. Computer and Information Science &mdash; 2013</p>
+            </div>
+            <ul class="list-group">
+              <li class="list-group-item"><strong class="text-uppercase">Courses for MS Degree</strong></li>
+              <li class="list-group-item">Logic</li>
+              <li class="list-group-item">Algorithms</li>
+              <li class="list-group-item">Computer Architecture</li>
+              <li class="list-group-item">Computer Networks II</li>
+              <li class="list-group-item">Advanced Compiler Construction</li>
+              <li class="list-group-item">Advanced Software Engineering</li>
+              <li class="list-group-item">Advanced Parallel Programming</li>
+              <li class="list-group-item">Text Analysis in Software Engineering</li>
+              <li class="list-group-item">Wireless Networks and Mobile Computing</li>
+              <li class="list-group-item"><strong class="text-uppercase">Additional Coursework</strong></li>
+              <li class="list-group-item">Computer Graphics</li>
+              <li class="list-group-item">Machine Learning</li>
+              <li class="list-group-item">Databases</li>
+              <li class="list-group-item">Applications of Financial Technology</li>
+              <li class="list-group-item">HPC Data Analytics</li>
+              <li class="list-group-item">Formal Methods of HPC</li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-sm-6 col-xs-12">
+          <div class="panel panel-primary">
+            <div class="panel-heading">
+              <h3 class="panel-title">Undergrad Section</h3>
+            </div>
+            <div class="panel-body">
+              <p>B.S. Computer Science &mdash; 2011</p>
+            </div>
+            <ul class="list-group">
+              <li class="list-group-item"><strong class="text-uppercase">Research Projects</strong></li>
+              <li class="list-group-item">3-D physics simulation</li>
+              <li class="list-group-item">Investigating parallel programming</li>
+              <li class="list-group-item">Efficient rendering of BSP maps</li>
+              <li class="list-group-item">Image classification using machine learning</li>
+              <li class="list-group-item"><strong class="text-uppercase">List of Advanced Courses</strong></li>
+              <li class="list-group-item">Computer Graphics</li>
+              <li class="list-group-item">Computer Networks</li>
+              <li class="list-group-item">Topics: Mobile Programming</li>
+              <li class="list-group-item">Software Engineering</li>
+              <li class="list-group-item">Artificial Intelligence</li>
+              <li class="list-group-item">Database Management Systems</li>
+              <li class="list-group-item">Parallel Programming</li>
+            </ul>
+          </div>
         </div>
         <div class="clearfix hidden-xs"></div>
       </div>
@@ -257,10 +317,10 @@
   </section>
   <section id="resources" class="section resources-section">
     <div class="container">
-      <h1 class="text-center text-primary">Resources</h1>
+      <h1 class="text-center">Resources</h1>
       <div class="row">
         <div class="col-sm-4 col-xs-12">
-          <div class="panel panel-default">
+          <div class="panel panel-info">
             <div class="panel-heading">
               <h4 class="panel-title">C++ References</h4>
             </div>
@@ -272,53 +332,20 @@
           </div>
         </div>
         <div class="col-sm-8 col-xs-12">
-          <div class="panel panel-default">
+          <div class="panel panel-info">
             <div class="panel-heading">
               <h4 class="panel-title">Presentations</h4>
             </div>
             <table class="table table-bordered">
               <tbody>
                 <tr>
-                  <td>Time</td><td><em><a href="resources/test.pdf">Name of Presentation</a></em></td>
+                  <td>May 2014</td><td><em><a href="resources/Parallelizing.Prefix.Sums.Formal.Methods.pdf">Parallelizing Prefix Sums</a></em></td>
+                </tr>
+                <tr>
+                  <td>Spring 2013</td><td><em><a href="resources/OpenACC.Lecture.CISC879.Spring2013.pdf">An Introduction to OpenACC</a></em></td>
                 </tr>
               </tbody>
             </table>
-          </div>
-        </div>
-        <div class="clearfix hidden-xs"></div>
-        <div class="col-sm-4 col-xs-12">
-          <div class="panel panel-default">
-            <div class="panel-heading">
-              <h4 class="panel-title">Linux References</h4>
-            </div>
-            <ul class="list-group">
-              <li class="list-group-item"><a href="//www.archlinux.org">ArchLinux</a></li>
-              <li class="list-group-item"><a href="//www.ss64.com/">Terminal Commands</a></li>
-              <li class="list-group-item"><a href="//unix.stackexchange.com/">Unix Stack Exchange</a></li>
-            </ul>
-          </div>
-        </div>
-        <div class="col-sm-8 col-xs-12">
-          <div class="panel panel-default">
-            <div class="panel-heading">
-              <h4 class="panel-title">Code Samples</h4>
-            </div>
-            <ul class="list-group">
-              <li class="list-group-item">
-                <span class="pull-left">Code Name&nbsp;<span class="label label-primary">Language</span></span>
-                <span class="pull-right">
-                  <a class="btn btn-default" href="resources/sample.zip">.zip</a>
-                </span>
-                <span class="clearfix"></span>
-              </li>
-              <li class="list-group-item">
-                <span class="pull-left">Code Name&nbsp;<span class="label label-primary">Language</span></span>
-                <span class="pull-right">
-                  <a class="btn btn-default" href="resources/sample.tgz">.tgz</a>
-                </span>
-                <span class="clearfix"></span>
-              </li>
-            </ul>
           </div>
         </div>
         <div class="clearfix hidden-xs"></div>
@@ -327,28 +354,28 @@
   </section>
   <section id="contact" class="section contact-section">
     <div class="container">
-      <h1 class="text-center text-primary">Contact</h1>
+      <h1 class="text-center">Contact</h1>
       <div class="row">
-	<p class="text-center lead col-xs-12">I welcome you to contact me through one of the methods below.</p>
+        <p class="text-center col-xs-12">I welcome you to contact me through one of the methods below.</p>
       </div>
       <div class-"row">
-        <div class="col-lg-push-2 col-lg-1 col-md-3 col-sm-4 col-xs-6">
+        <div class="col-lg-offset-3 col-xs-6 col-sm-2 col-lg-1">
           <div class="text-center">
-            <br><a href="mailto:email" class="nounder">
+            <br><a href="mailto:fake@udel.edu" class="nounder">
               <span class="icon-mail jumbo-icon"></span>
               <br><span>Email</span>
             </a>
           </div>
         </div>
-        <div class="col-lg-push-2 col-lg-1 col-md-3 col-sm-4 col-xs-6">
+        <div class="col-sm-2 col-lg-1 col-xs-6">
           <div class="text-center contact">
-            <br><a href="tel:0000000000" class="nounder">
+            <br><a href="tel:1234567890" class="nounder">
               <span class="icon-phone jumbo-icon"></span>
               <br><span>Phone</span>
             </a>
           </div>
         </div>
-        <div class="col-lg-push-2 col-lg-1 col-md-3 col-sm-4 col-xs-6">
+        <div class="col-sm-2 col-lg-1 col-xs-6">
           <div class="text-center contact">
             <br><a href="skype:skype?chat" class="nounder">
               <span class="icon-skype jumbo-icon"></span>
@@ -356,44 +383,25 @@
             </a>
           </div>
         </div>
-        <div class="clearfix visible-sm-block hidden-lg hidden-md hidden-xs">&nbsp;</div>
-        <div class="col-lg-push-2 col-lg-1 col-md-push-0 col-sm-push-2 col-md-3 col-sm-4 col-xs-6">
+        <div class="col-sm-2 col-lg-1 col-xs-6">
           <div class="text-center contact">
-            <br><a href="//www.facebook.com/facebook" class="nounder">
+            <br><a href="//www.facebook.com/" class="nounder">
               <span class="icon-facebook jumbo-icon"></span>
               <br><span>Facebook</span>
             </a>
           </div>
         </div>
-        <div class="clearfix hidden-lg visible-md-block hidden-sm">&nbsp;</div>
-        <div class="col-lg-push-2 col-lg-1 col-md-push-0 col-md-3 col-sm-push-2 col-sm-4 col-xs-6">
+        <div class="col-sm-2 col-lg-1 col-xs-6">
           <div class="text-center contact">
-            <br><a href="//plus.google.com/+Google/" class="nounder">
-              <span class="icon-gplus jumbo-icon"></span>
-              <br><span>Google+</span>
-            </a>
-          </div>
-        </div>
-        <div class="clearfix visible-sm-block hidden-lg hidden-md hidden-xs">&nbsp;</div>
-        <div class="col-lg-push-2 col-lg-1 col-md-3 col-sm-4 col-xs-6">
-          <div class="text-center contact">
-            <br><a href="//www.twitter.com/twitter" class="nounder">
-              <span class="icon-twitter jumbo-icon"></span>
-              <br><span>Twitter</span>
-            </a>
-          </div>
-        </div>
-        <div class="col-lg-push-2 col-lg-1 col-md-3 col-sm-4 col-xs-6">
-          <div class="text-center contact">
-            <br><a href="//www.linkedin.com/in/profilename" class="nounder">
+            <br><a href="//www.linkedin.com/" class="nounder">
               <span class="icon-linkedin jumbo-icon"></span>
               <br><span>LinkedIn</span>
             </a>
           </div>
         </div>
-        <div class="col-lg-push-2 col-lg-1 col-md-3 col-sm-4 col-xs-6">
+        <div class="col-sm-2 col-lg-1 col-xs-6">
           <div class="text-center contact">
-            <br><a href="//www.github.com/username" class="nounder">
+            <br><a href="//www.github.com/" class="nounder">
               <span class="icon-github jumbo-icon"></span>
               <br><span>Github</span>
             </a>
@@ -401,32 +409,31 @@
         </div>
       </div>
       <div class="row">
-	<p class="col-xs-12 text-center lead"><br>If you need reach me via traditional mail, please consult my CV</p>
+        <p class="col-xs-12 text-center"><br>If you need reach me via traditional mail, please consult my CV</p>
       </div>
     </div>
   </section>
+  </main>
+  <footer>
   <section id="footer" class="section footer-section">
     <div class="container">
       <div class="row">
-	<div class="col-xs-12">
-	  <p class="lead text-center text-uppercase">&copy;2014 YOUR NAME HERE</p>
-	</div>
+        <div class="col-xs-12">
+          <p class="text-center text-uppercase lead">&copy;2017 William Killian</p>
+        </div>
       </div>
       <div class="row">
-	<div class="col-sm-4 col-xs-12">
-	  <p class="small text-center text-uppercase">Powered by <a href="//www.getbootstrap.com">Bootstrap</a></p>
-	</div>
-	<div class="col-sm-4 col-xs-12">
-	  <p class="small text-center text-uppercase">Icons by <a href="//www.icomoon.com">Icomoon</a> and&nbsp;<a href="//glyphicons.com">Glyphicons</a>.</p>
-	</div>
-	<div class="col-sm-4 col-xs-12">
-	  <p class="small text-center text-uppercase">Layout/Design by <a href="//www.eecis.udel.edu/~wkillian">William&nbsp;Killian</a></p>
-	</div>
+        <div class="col-sm-4 col-xs-12">
+          <p class="small text-center text-uppercase">Powered by <a href="//www.getbootstrap.com">Bootstrap</a></p>
+        </div>
+        <div class="col-sm-4 col-xs-12">
+          <p class="small text-center text-uppercase">Icons by <a href="//www.icomoon.io">Icomoon</a> and&nbsp;<a href="//glyphicons.com">Glyphicons</a>.</p>
+        </div>
+        <div class="col-sm-4 col-xs-12">
+          <p class="small text-center text-uppercase">Layout/Design by <a href="//www.eecis.udel.edu/~wkillian">William&nbsp;Killian</a></p>
+        </div>
     </div>
   </section>
-  <script src="js/jquery-1.11.0.js"></script>
-  <script src="js/bootstrap.min.js"></script>
-  <script src="js/jquery.easing.min.js"></script>
-  <script src="js/scrolling-nav.js"></script>
+  </footer>
 </body>
 </html>
